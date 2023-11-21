@@ -65,7 +65,7 @@ The .NET Aspire SQL Server component provides multiple configuration approaches 
 
 ### Use configuration providers
 
-The .NET Aspire PostgreSQL component supports <xref:Microsoft.Extensions.Configuration?displayProperty=fullName>. It loads the `MicrosoftDataSqlClientSettings` from configuration files such as _appsettings.json_ by using the `Aspire:SqlServer:SqlClient` key. If you have set up your configurations in the `Aspire:SqlServer:SqlClient` section, you can just call the method without passing any parameter.
+The .NET Aspire SQL Server component supports <xref:Microsoft.Extensions.Configuration?displayProperty=fullName>. It loads the `MicrosoftDataSqlClientSettings` from configuration files such as _appsettings.json_ by using the `Aspire:SqlServer:SqlClient` key. If you have set up your configurations in the `Aspire:SqlServer:SqlClient` section, you can just call the method without passing any parameter.
 
 The following example shows an _appsettings.json_ file that configures some of the available options:
 
